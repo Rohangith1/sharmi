@@ -3,6 +3,7 @@ import { FaBarsStaggered } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa";
 import "../styles/navbar.css";
 import { NavLink } from "react-router-dom";
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   const navRef = useRef();
@@ -16,7 +17,7 @@ const Navbar = () => {
  };
   return (
     <header>
-      <h3>Logo</h3>
+      <img className="h-10 w-10  " src={logo} alt="" />
       <nav ref={navRef}>
         <NavLink className="na" onClick={handleLinkClick} to="/">
           Home

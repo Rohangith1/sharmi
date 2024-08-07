@@ -8,7 +8,7 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <div>
+    <div className="bg-gradient-to-br from-zinc-900 via-slate-800 to-pink-500 min-h-screen font-Syne">
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -17,7 +17,9 @@ const App = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Footer />} />
         </Routes>
+        
       </BrowserRouter>
+
     </div>
   );
 };
