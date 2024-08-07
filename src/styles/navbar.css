@@ -9,13 +9,13 @@ header{
 
 }
 
-nav a{
+nav .na{
     margin: 0 2rem;
     color: var(--textColor);
     text-decoration:none ;
 }
 
-nav a:hover{
+nav .na:hover{
     color: var(--secondaryColor);
 }
 
@@ -68,7 +68,7 @@ nav {
 		right: 2rem;
 	}
 
-	nav a {
+	nav .na {
 		font-size: 1.5rem;
 	}
 }
