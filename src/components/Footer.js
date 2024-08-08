@@ -22,19 +22,25 @@ const Footer = () => {
           className="flex flex-col gap-5 md:flex-col  rounded-md "
         >
           <input
+            type="text"
+            className="rounded-md px-5 py-4  italic md:px-20 "
+            placeholder="Enter Your Name"
+            name=""
+            id=""
+          />
+          <input
             type="email"
             className="rounded-md px-5 py-4  italic md:px-20 "
             placeholder="Enter Your Email"
             name=""
             id=""
           />
-          <input
-            type="text"
-            className="rounded-md px-5 py-4  italic md:px-20 "
+        
+        <textarea type="text"
+            className="rounded-md px-5 py-10  italic md:px-20 "
             placeholder="Leave a message..."
             name=""
-            id=""
-          />
+            id=""></textarea>
           <button
             className="bg-gradient-to-r from-slate-700 via-gray-400 to-slate-600 hover:from-pink-500 hover:to-yellow-500 text-s text-white rounded-md px-4 py-3  md:px-2"
             type="submit"
